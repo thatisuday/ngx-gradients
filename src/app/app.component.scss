@@ -1,0 +1,25 @@
+:host{
+	text-align: center;
+
+	>.grad-container{
+		width: 400px;
+		height: 400px;
+		overflow: hidden;
+		border-radius: 100%;
+		margin: auto;
+	}
+
+	>button{
+		margin: 5px;
+		width: 100px;
+		height: 100px;
+		font-family: sans-serif;
+		padding: 15px;
+		border: none;
+		cursor: pointer;
+		outline: none;
+		overflow: hidden;
+		border-radius: 100%;
+		display: inline-block;
+	}
+}

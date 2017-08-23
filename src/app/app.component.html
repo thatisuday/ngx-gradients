@@ -1,3 +1,4 @@
-<h1>
-  {{title}}
-</h1>
+<div class="grad-container" [grad-background]="grad"></div>
+
+<h3>{{grad}}</h3>
+<button *ngFor="let _grad of _gradients" (click)="grad = _grad" [style.background]="gradientsSafe[_grad]">{{_grad}}</button>
